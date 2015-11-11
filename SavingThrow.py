@@ -69,11 +69,34 @@ __version__ = "1.1.0"
 # NEFARIOUS_FILE_SOURCES = ["https://blah.com/tacos.adf",
 #                           "https://blah.com/more-tacos.adf"]
 
-NEFARIOUS_FILE_SOURCES = []
+NEFARIOUS_FILE_SOURCES = [
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/AskToolbar.adf", 
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/AwesomeScreenshot.adf", 
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/BestYouTubeDownloader.adf", 
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/ChatZum.adf", 
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/Conduit.adf", 
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/Crossrider.adf",
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/CustomSearch.adf",
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/FkCodec.adf",
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/Genieo.adf",
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/GoPhoto.adf",
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/JDIBackup.adf", 
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/ListenToYouTube.adf",
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/MacKeeper.adf", 
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/multimalware.adf", 
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/OperatorMac.adf",
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/PremierOpinion.adf",
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/SaveKeep.adf",
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/Spigot.adf",
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/VSearch.adf",
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/Vidx-MacVX.adf",  
+"https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/Yontoo.adf"
+, "https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/ZipCloud.adf"
+]
 
 # Include Apple's identified Adware files by default.
 # https://support.apple.com/en-us/ht203987
-HT203987_URL = "https://raw.githubusercontent.com/SavingThrows/AdwareDefinitionFiles/master/Apple-HT203987.adf"  # pylint: disable=line-too-long
+HT203987_URL = "https://raw.githubusercontent.com/FOX-FFE-IT/AdwareDefinitionFiles/master/Apple-HT203987.adf"  # pylint: disable=line-too-long
 NEFARIOUS_FILE_SOURCES.append(HT203987_URL)
 
 CACHE = "/Library/Application Support/SavingThrow"
